@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+body {
+    background: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000');
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0%;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 0%;
+    /* position: fixed; */
+}
+
+ul a li {
+    font-size: 30px;
+    margin-right: 40px;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: black;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+.home-content {
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div .home-content-img {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    /* background-color: aliceblue; */
+}
+
+div .home-content-text {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    text-shadow: 2px 2px 8px #FF0000
+        /* background-color: aqua; */
+}
+
+.img-home {
+    height: 300px;
+    border-radius: 300px;
+}
+
+.home-content-detail {
+    /* background-color: blue; */
+    width: 400px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Education-heading {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    /* background-color: blue; */
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-heading {
+    font-size: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    /* background-color: blue; */
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Education-content {
+    margin-top: 20px;
+    /* background-color: red; */
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Education-school {
+    width: 50%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.Education-college {
+    width: 50%;
+    /* background-color: pink; */
+    text-align: center;
+}
+
+.school-activities {
+    font-size: 20px;
+}
+
+.college-activities {
+    font-size: 20px;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.list1 {
+    text-align: center;
+    width: 50%;
+}
+
+.list2 {
+    text-align: center;
+    width: 50%;
+}
+
+.list1 li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.list2 li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.prog-lang-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.contact-form {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-box {
+    margin-top: 15px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+}
+
+.mail-box {
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+}
+
+.text-box {
+    width: 500px;
+    height: 100px;
+    font-size: 25px;
+    border: none;
+}
+
+.submit-but {
+    margin-top: 2%;
+    width: 500px;
+    height: 40px;
+    font-size: large;
+    background-color: blue;
+    border: none;
+}
+
+.submit-but:hover {
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+.social-icon:hover {
+    height: 60px;
+    width: 60px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 25px;
+}
+
+.rights {
+    display: inline;
+    height: 30px;
+    width: 30px;
+}
+
+@media(max-width:760px) {
+    .home-content {
+        /* background-color: brown; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    div .home-content-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    div .home-content-text {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .home-content-detail {
+        /* background-color: blue; */
+        width: 400px;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .Education-content {
+        display: flex;
+        flex-direction: column;
+        height: 560px;
+        background-color: rgb(250, 195, 204);
+    }
+
+    .Education-school {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .Education-college {
+        width: 100%;
+        /* background-color: violet; */
+    }
+
+    .name-box {
+        width: auto;
+    }
+
+    .mail-box {
+        width: auto;
+    }
+
+    .text-box {
+        width: auto;
+    }
+
+    .submit-but {
+        width: 250px;
+    }
+}
+
+@media (max-width: 914px) and (min-width: 761px) {
+    .Education-content {
+        height: auto;
+    }
+}
+@media (max-width: 364px) {
+    .Education-content {
+        height: 700px;
+    }
+}
+@media (max-width: 322px) {    
+    .name-box {
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .mail-box {
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .text-box {
+        width: 180px;
+        font-size: 20px;
+    }
+
+    .submit-but {
+        width: 180px;
+    }
+}
